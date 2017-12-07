@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+html,
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ddd;
+  min-width: 860px;
+}
+
+p,
+button,
+input {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+#gameboard {
+  position: relative;
+  margin: 0 auto 2em auto;
+  width: 500px;
+  height: 500px;
+}
+
+#gameboard div {
+  position: absolute;
+  box-sizing: border-box;
+  background: #f6f8f9;
+  border: 1px solid #ddd;
+  width: 50px;
+  height: 50px;
+}
